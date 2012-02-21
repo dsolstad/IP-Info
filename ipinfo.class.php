@@ -116,7 +116,7 @@ class IPInfo {
         }
     }
 
-    private function setIpAddr($addr) {
+    public function setIpAddr($addr) {
         if ($this->validAddrPattern($addr)) {
             $this->ip_addr = $addr;
             $this->setIpAddrClass();
@@ -135,7 +135,7 @@ class IPInfo {
 
     // Sets the custom subnet mask. 
     //  Takes both standard format (255.255.255.0) and alt. (24)
-    private function setSubnetMaskCustom($mask) {
+    public function setSubnetMaskCustom($mask) {
         $binary = '';
         // Checks if the mask is in the short format e.x: /26
         //   and converts it to traditional format.
