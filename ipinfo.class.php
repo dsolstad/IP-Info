@@ -2,7 +2,7 @@
 
 /*
  * Gets information about an IP address with subnet mask
- * Author: echofish (echofish.org)
+ * Author: Daniel Solstad (dsolstad.com)
  * Last updated: 18 Feb 2012
  *
  * Example of use:
